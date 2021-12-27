@@ -281,28 +281,10 @@ body {
 .welcome__link {
   margin-right: auto;
   border-radius: 2px;
-  padding: 1.09375rem 5.71875rem;
-  background-color: #b31918;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.9375rem;
-  line-height: 1.125rem;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.welcome__link:hover {
-  background-color: #fff;
-  color: #b31918;
 }
 @media (max-width: 465px) {
   .welcome__link {
     margin-left: auto;
-  }
-}
-@media (max-width: 425px) {
-  .welcome__link {
-    padding: 1rem 3.125rem;
   }
 }
 
@@ -397,6 +379,59 @@ body {
 
 .slide-control {
   background-image: url(../img/welcome-slider/control.jpg);
+}
+
+.title-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
+  color: #000;
+  color: #222222;
+}
+
+.slider-events__slide {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+.slide-events__datetime {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.slide-meeting {
+  background-image: url(../img/events-slider/meeting.jpg);
+}
+
+.slide-forum-1 {
+  background-image: url(../img/events-slider/forum-1.jpg);
+}
+
+.slide-forum-2 {
+  background-image: url(../img/events-slider/forum-2.jpg);
+}
+
+.catalog-button {
+  padding: 1.09375rem 5.71875rem;
+  background-color: #b31918;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.catalog-button:hover {
+  background-color: #fff;
+  color: #b31918;
+}
+@media (max-width: 425px) {
+  .catalog-button {
+    padding: 1rem 3.125rem;
+  }
 }
 
 .top-header {
