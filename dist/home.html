@@ -5,7 +5,7 @@
 	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20211224193043">
+	<link rel="stylesheet" href="css/style.min.css?_v=20211227191334">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,9 @@
 				<div class="top-header__container">
 					<address class="top-header__address">
 						<span class="top-header__span top-header__font">Москва</span>
-						<span class="top-header__span top-header__font">ул. Макаренко дом 2/21 стр.2</span>
+						<span data-da=".mobile-list__street,767,1" class="top-header__street top-header__span top-header__font">ул. Макаренко дом 2/21 стр.2</span>
 					</address>
-					<a href="tel:+74951112272" class="top-header__phone top-header__font white-link">+7 (495) 111 22 72</a>
+					<a data-da=".mobile-list__phone,767,1" href="tel:+74951112272" class="top-header__phone top-header__font white-link">+7 (495) 111 22 72</a>
 					<ul class="top-header__list">
 						<li class="top-header__list-item"><a href="#" class="top-header__list-link top-header__font white-link">О компании</a></li>
 						<li class="top-header__list-item"><a href="#" class="top-header__list-link top-header__font white-link">Контакты</a></li>
@@ -38,6 +38,12 @@
 							<li class="header-navigation__item"><a href="#" class="header-navigation__link">Спикеры</a></li>
 							<li class="header-navigation__item"><a href="#" class="header-navigation__link">Отзывы</a></li>
 						</ul>
+						<ul class="header-navigation__mobile-list mobile-list">
+							<li class="mobile-list__item"><span class="_icon-user"></span><a class="mobile-list__login" href="#">Мой кабинет</a></li>
+							<li class="mobile-list__item mobile-list__phone"><span class="_icon-phone"></span></li>
+							<li class="mobile-list__item mobile-list__street"><span class="_icon-location"></span></li>
+							<li class="mobile-list__item"><span class="_icon-email"></span><a class="mobile-list__email" href="mailto:info@genesis-forum.ru">info@genesis-forum.ru</a></li>
+						</ul>
 					</nav>
 					<a href="#" class="body-header__login-link">Войти</a>
 					<a href="#" class="body-header__login-icon _icon-login"></a>
@@ -46,12 +52,51 @@
 		</header>
 		<main class="page">
 			<section class="welcome">
-				<div class="welcome__container">
-					<div class="welcome__body">
-						<h2 class="welcome__title">образовательная платформа</h2>
-						<p class="welcome__paragraph">Развивайте навыки с помощью онлайн-курсов, тренингов, конференций и форумов от лучших спикеров информационного агентства.</p>
-						<a href="#" class="welcome__link">Каталог курсов</a>
+				<div class="welcome__gradient">
+					<div class="welcome__container">
+						<div class="welcome__body">
+							<h2 class="welcome__title">образовательная платформа</h2>
+							<p class="welcome__paragraph">Развивайте навыки с помощью онлайн-курсов, тренингов, конференций и форумов от лучших спикеров информационного агентства.</p>
+							<a href="#" class="welcome__link">Каталог курсов</a>
+						</div>
 					</div>
+				</div>
+				<div class="welcome__slider slider-welcome">
+					<div class="slider-welcome__swiper">
+						<div class="slider-welcome__slide slide-welcome slide-investments">
+							<div class="slide-welcome__gradient">
+								<div class="slide-welcome__content">
+									<a class="slide-welcome__link" href="#">Ивестиции и трейдинг</a>
+									<p class="slide-welcome__paragraph">Грамотное распределение денежных средств и увеличение оборотов компании</p>
+								</div>
+							</div>
+						</div>
+						<div class="slider-welcome__slide slide-welcome slide-finance">
+							<div class="slide-welcome__gradient">
+								<div class="slide-welcome__content">
+									<a class="slide-welcome__link" href="#">Экономика и финансы</a>
+									<p class="slide-welcome__paragraph">Новые экономические модели для максимального оборота и роста компаний </p>
+								</div>
+							</div>
+						</div>
+						<div class="slider-welcome__slide slide-welcome slide-it">
+							<div class="slide-welcome__gradient">
+								<div class="slide-welcome__content">
+									<a class="slide-welcome__link" href="#">Кибербезопасноть и IT</a>
+									<p class="slide-welcome__paragraph">Корпоративная безопасность и эффективная работа с базами данных</p>
+								</div>
+							</div>
+						</div>
+						<div class="slider-welcome__slide slide-welcome slide-control">
+							<div class="slide-welcome__gradient">
+								<div class="slide-welcome__content">
+									<a class="slide-welcome__link" href="#">Оперативное управление</a>
+									<p class="slide-welcome__paragraph">Современные методики управленческих решений для владельцев компаний</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-welcome__controls"></div>
 				</div>
 			</section>
 		</main>
@@ -72,7 +117,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20211224193043"></script>
+	<script src="js/app.min.js?_v=20211227191334"></script>
 </body>
 
 </html>
