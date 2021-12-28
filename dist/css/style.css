@@ -307,8 +307,10 @@ body {
   height: 0.75rem;
   border-radius: 50%;
   background-color: #c4c4c4;
+  cursor: pointer;
 }
 .slider-welcome__controls .swiper-pagination-bullet-active {
+  pointer-events: none;
   background-color: #b31918;
 }
 @media (min-width: 1699.98px) {
@@ -606,6 +608,158 @@ body {
 
 .education {
   padding-top: 2.5rem;
+}
+.education__container {
+  display: flex;
+  flex-direction: column;
+}
+.education__title {
+  padding-bottom: 2.5rem;
+}
+.education__paragraph {
+  padding-bottom: 4.375rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+  color: #000;
+}
+.education__paragraph span {
+  color: #b31918;
+}
+.education__type {
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 47.99875em) {
+  .education__type {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+.education__card {
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+.education__card-courses {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(../img/education/courses.jpg);
+}
+.education__card-courses .card-education__title {
+  margin-bottom: 1.5rem;
+}
+.education__card-webinars {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-image: url(../img/education/webinars.jpg);
+}
+.education__card-trainings {
+  background-image: url(../img/education/trainings.jpg);
+}
+.education__card-seminars {
+  background-image: url(../img/education/seminars.jpg);
+}
+.education__card-consultations {
+  background-image: url(../img/education/consultations.jpg);
+}
+.education__link {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.card-education__gradient {
+  display: flex;
+  flex-direction: column;
+  padding: 4.375rem 2.5rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(36, 36, 36, 0.7), rgba(36, 36, 36, 0.7));
+}
+@media (max-width: 47.99875em) {
+  .card-education__gradient {
+    align-items: center;
+    padding: 2.5rem 0;
+  }
+}
+.card-education__title {
+  margin-bottom: 1.875rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+  color: #000;
+  color: #fff;
+}
+@media (max-width: 29.99875em) {
+  .card-education__title {
+    margin-bottom: 1.25rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #000;
+    color: #fff;
+  }
+}
+.card-education__list {
+  margin: 0 0 1.875rem 1.875rem;
+}
+@media (max-width: 29.99875em) {
+  .card-education__list {
+    margin: 0 0 1.25rem 0;
+  }
+}
+.card-education__item {
+  margin-bottom: 1.125rem;
+}
+@media (max-width: 29.99875em) {
+  .card-education__item {
+    margin-bottom: 0.8125rem;
+  }
+}
+.card-education__list-link {
+  padding-left: 1.8125rem;
+  position: relative;
+  font-weight: normal;
+  color: #fff;
+}
+.card-education__list-link:hover {
+  text-decoration: underline;
+}
+.card-education__list-link::before {
+  content: "";
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #b31918;
+}
+.card-education__link {
+  display: inline-block;
+  margin: 0 auto 0 0;
+  padding: 0.6875rem 3rem;
+  background-color: #b31918;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.card-education__link:hover {
+  background-color: #fff;
+  color: #b31918;
+}
+@media (max-width: 47.99875em) {
+  .card-education__link {
+    margin: 0 auto;
+  }
 }
 
 .catalog-button {
