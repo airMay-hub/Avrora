@@ -5,7 +5,7 @@
 	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20211227211503">
+	<link rel="stylesheet" href="css/style.min.css?_v=20211228171736">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,8 +101,14 @@
 			</section>
 			<section class="events">
 				<div class="events__container">
-					<h3 class="events__title title-3">Ближайшие события</h3>
-					<div class="events__slider slider-events">
+					<div class="events__top-block">
+						<h3 class="events__title title-3">Ближайшие события</h3>
+						<div class="events__arrows main-arrows">
+							<button data-da=".main-slider-controls,767,0" class="main-arrows__item main-arrows__item-prev"><span class="_icon-slider-arrow"></span></button>
+							<button data-da=".main-slider-controls,767,2" class="main-arrows__item main-arrows__item-next"><span class="_icon-slider-arrow"></span></button>
+						</div>
+					</div>
+					<div class="events__slider main-slider slider-events">
 						<div class="slider-events__swiper">
 							<div class="slider-events__slide slide-events slide-meeting">
 								<div class="slide-events__gradient">
@@ -111,8 +117,8 @@
 											<span class="slide-events__time">12:00</span>
 											<span class="slide-events__date">4 ноября</span>
 										</div>
-										<h4 class="slider-events__title">Встреча с читателями</h4>
-										<p class="slider-events__author">Евгений Спицын</p>
+										<h4 class="slide-events__title">Встреча с читателями</h4>
+										<p class="slide-events__author">Евгений Спицын</p>
 									</div>
 								</div>
 							</div>
@@ -123,8 +129,8 @@
 											<span class="slide-events__time">11:00</span>
 											<span class="slide-events__date">16 ноября</span>
 										</div>
-										<h4 class="slider-events__title">10-ый форум директоров: “Стратегия. Взгляд в будущее Российского бизнеса”</h4>
-										<p class="slider-events__author">Игорь Тощаков</p>
+										<h4 class="slide-events__title">10-ый форум директоров: “Стратегия. Взгляд в будущее Российского бизнеса”</h4>
+										<p class="slide-events__author">Игорь Тощаков</p>
 									</div>
 								</div>
 							</div>
@@ -135,12 +141,51 @@
 											<span class="slide-events__time">12:00</span>
 											<span class="slide-events__date">18 ноября</span>
 										</div>
-										<h4 class="slider-events__title">“Мир входит в катастрофу. Что делать и чего ждать каждому из нас”</h4>
-										<p class="slider-events__author">Андрей Школьников</p>
+										<h4 class="slide-events__title">“Мир входит в катастрофу. Что делать и чего ждать каждому из нас”</h4>
+										<p class="slide-events__author">Андрей Школьников</p>
+									</div>
+								</div>
+							</div>
+							<div class="slider-events__slide slide-events slide-meeting">
+								<div class="slide-events__gradient">
+									<div class="slide-events__content">
+										<div class="slide-events__datetime">
+											<span class="slide-events__time">12:00</span>
+											<span class="slide-events__date">4 ноября</span>
+										</div>
+										<h4 class="slide-events__title">Встреча с читателями</h4>
+										<p class="slide-events__author">Евгений Спицын</p>
+									</div>
+								</div>
+							</div>
+							<div class="slider-events__slide slide-events slide-forum-1">
+								<div class="slide-events__gradient">
+									<div class="slide-events__content">
+										<div class="slide-events__datetime">
+											<span class="slide-events__time">11:00</span>
+											<span class="slide-events__date">16 ноября</span>
+										</div>
+										<h4 class="slide-events__title">10-ый форум директоров: “Стратегия. Взгляд в будущее Российского бизнеса”</h4>
+										<p class="slide-events__author">Игорь Тощаков</p>
+									</div>
+								</div>
+							</div>
+							<div class="slider-events__slide slide-events slide-forum-2">
+								<div class="slide-events__gradient">
+									<div class="slide-events__content">
+										<div class="slide-events__datetime">
+											<span class="slide-events__time">12:00</span>
+											<span class="slide-events__date">18 ноября</span>
+										</div>
+										<h4 class="slide-events__title">“Мир входит в катастрофу. Что делать и чего ждать каждому из нас”</h4>
+										<p class="slide-events__author">Андрей Школьников</p>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="main-slider-controls">
+						<div class="main-slider-dotts"></div>
 					</div>
 				</div>
 			</section>
@@ -193,7 +238,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20211227211503"></script>
+	<script src="js/app.min.js?_v=20211228171736"></script>
 </body>
 
 </html>
