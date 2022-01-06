@@ -525,14 +525,15 @@ body {
   background-size: cover;
 }
 
-.slide-events:hover .slide-events__gradient {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) 100%);
-}
 .slide-events__gradient {
   padding: 1.25rem 0.9375rem;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  transition: background 0.3s ease-in-out;
+}
+.slide-events__gradient:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) 100%);
 }
 .slide-events__content {
   width: 100%;
@@ -661,15 +662,22 @@ body {
     grid-template-rows: repeat(5, 1fr);
   }
 }
-.education__card {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
 .education__card-courses {
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(../img/education/courses.jpg);
+  background: url(../img/education/courses.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 47.99875em) {
+  .education__card-courses {
+    background: url(../img/education/courses.jpg) center center no-repeat;
+    background-size: 32.5rem;
+    transition: background 0.8s ease-in-out;
+  }
+  .education__card-courses:hover {
+    background: url(../img/education/courses.jpg) left center no-repeat;
+    background-size: 43.75rem;
+  }
 }
 .education__card-courses .card-education__title {
   margin-bottom: 1.5rem;
@@ -677,16 +685,64 @@ body {
 .education__card-webinars {
   grid-row-start: 3;
   grid-row-end: 4;
-  background-image: url(../img/education/webinars.jpg);
+  background: url(../img/education/webinars.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 47.99875em) {
+  .education__card-webinars {
+    background: url(../img/education/webinars.jpg) center center no-repeat;
+    background-size: 32.5rem;
+    transition: background 0.8s ease-in-out;
+  }
+  .education__card-webinars:hover {
+    background: url(../img/education/webinars.jpg) left center no-repeat;
+    background-size: 43.75rem;
+  }
 }
 .education__card-trainings {
-  background-image: url(../img/education/trainings.jpg);
+  background: url(../img/education/trainings.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 47.99875em) {
+  .education__card-trainings {
+    background: url(../img/education/trainings.jpg) center center no-repeat;
+    background-size: 32.5rem;
+    transition: background 0.8s ease-in-out;
+  }
+  .education__card-trainings:hover {
+    background: url(../img/education/trainings.jpg) left center no-repeat;
+    background-size: 43.75rem;
+  }
 }
 .education__card-seminars {
-  background-image: url(../img/education/seminars.jpg);
+  background: url(../img/education/seminars.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 47.99875em) {
+  .education__card-seminars {
+    background: url(../img/education/seminars.jpg) center center no-repeat;
+    background-size: 32.5rem;
+    transition: background 0.8s ease-in-out;
+  }
+  .education__card-seminars:hover {
+    background: url(../img/education/seminars.jpg) left center no-repeat;
+    background-size: 43.75rem;
+  }
 }
 .education__card-consultations {
-  background-image: url(../img/education/consultations.jpg);
+  background: url(../img/education/consultations.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 47.99875em) {
+  .education__card-consultations {
+    background: url(../img/education/consultations.jpg) center center no-repeat;
+    background-size: 32.5rem;
+    transition: background 0.8s ease-in-out;
+  }
+  .education__card-consultations:hover {
+    background: url(../img/education/consultations.jpg) left center no-repeat;
+    background-size: 43.75rem;
+  }
 }
 .education__link {
   border: 1px solid #b31918;
