@@ -1813,19 +1813,34 @@ body {
   margin: 0 0 1.25rem 0;
 }
 .feedback-info__block-name {
-  margin: 0 0 1.25rem 0;
+  margin: 0 -0.625rem 1.25rem -0.625rem;
   display: flex;
-  gap: 1.25rem;
 }
 @media (max-width: 530px) {
   .feedback-info__block-name {
+    margin: 0 0 1.25rem 0;
     flex-direction: column;
+  }
+}
+.feedback-info__name {
+  margin: 0 0.625rem;
+}
+@media (max-width: 530px) {
+  .feedback-info__name {
+    margin: 0 0 1.25rem 0;
+  }
+}
+.feedback-info__email {
+  margin: 0 0.625rem;
+}
+@media (max-width: 530px) {
+  .feedback-info__email {
+    margin: 0;
   }
 }
 .block-button {
   display: flex;
   flex-direction: column-reverse;
-  gap: 1.25rem;
 }
 .block-button__agreement {
   font-family: "Roboto";
@@ -1836,6 +1851,8 @@ body {
   color: #000;
 }
 .block-button__submit {
+  margin: 0 0 1.25rem 0;
+  border: 1px solid #b31918;
   border-radius: 0.625rem;
   padding: 1.0625rem 3.5rem;
   height: 3.375rem;
@@ -2240,15 +2257,29 @@ body {
 }
 
 .footer {
-  padding-top: 6.875rem;
-  background-color: #000;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.875rem;
   color: #000;
+  background-color: #000;
   color: #fff;
+}
+@media (min-width: 66.25em) {
+  .footer {
+    padding-top: 6.25rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 66.25em) {
+  .footer {
+    padding-top: calc(3.75rem + 2.5 * (((100vw - 20rem)) / ((46.25))));
+  }
+}
+@media (max-width: 20em) {
+  .footer {
+    padding-top: 3.75rem;
+  }
 }
 .footer__row-1 {
   display: flex;
@@ -2276,20 +2307,23 @@ body {
 }
 .footer__row-2 {
   display: flex;
-  padding: 5.75rem 0 3.125rem 0;
+  padding: 3.75rem 0 1.875rem 0;
   align-items: center;
   justify-content: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   color: #000;
   color: #fff;
 }
 
+.column-footer-1__paragraph:not(:last-child) {
+  margin: 0 0 0.625rem 0;
+}
 .column-footer-1__paragraph:first-child {
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 3.125rem 0;
   font-weight: bold;
 }
 
@@ -2298,6 +2332,9 @@ body {
 }
 .column-footer-2__link:hover {
   text-decoration: underline;
+}
+.column-footer-2__link:not(:last-child) {
+  margin: 0 0 0.625rem 0;
 }
 .column-footer-2__link:nth-child(3) {
   text-decoration: underline;
