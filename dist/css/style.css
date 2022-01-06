@@ -525,6 +525,9 @@ body {
   background-size: cover;
 }
 
+.slide-events:hover .slide-events__gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
 .slide-events__gradient {
   padding: 1.25rem 0.9375rem;
   width: 100%;
@@ -660,7 +663,7 @@ body {
 }
 .education__card {
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: center center;
   background-size: cover;
 }
 .education__card-courses {
@@ -1530,9 +1533,13 @@ body {
 }
 
 .info-block__item {
-  margin: 0 0 1.25rem 0;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
 }
-.info-block__article {
+.info-block__item:hover {
+  background-color: #c4c4c4;
+}
+.info-block__link {
   display: flex;
 }
 .info-block__img {
