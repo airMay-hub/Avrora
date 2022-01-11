@@ -369,22 +369,6 @@ body {
   color: #fff;
 }
 
-.slide-investments {
-  background-image: url(../img/welcome-slider/investments.jpg);
-}
-
-.slide-finance {
-  background-image: url(../img/welcome-slider/finance.jpg);
-}
-
-.slide-it {
-  background-image: url(../img/welcome-slider/it.jpg);
-}
-
-.slide-control {
-  background-image: url(../img/welcome-slider/control.jpg);
-}
-
 .title-3 {
   font-family: "Roboto";
   font-style: normal;

@@ -5,7 +5,7 @@
 	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220110145314">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220111170315">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +51,7 @@
 			</div>
 		</header>
 		<main class="page">
+			<!-- Сеция Welcome -->
 			<section class="welcome">
 				<div class="welcome__gradient">
 					<div class="welcome__container">
@@ -61,9 +62,12 @@
 						</div>
 					</div>
 				</div>
+				<!-- Слайдер welcome -->
 				<div class="welcome__slider slider-welcome">
 					<div class="slider-welcome__swiper">
-						<div class="slider-welcome__slide slide-welcome slide-investments">
+						<!-- Слайд -->
+						<div class="slider-welcome__slide slide-welcome swiper-lazy" data-background="img/welcome-slider/investments.jpg">
+							<div class="swiper-lazy-preloader"></div>
 							<div class="slide-welcome__gradient">
 								<div class="slide-welcome__content">
 									<a class="slide-welcome__link  main-button" href="#">Ивестиции и трейдинг</a>
@@ -71,7 +75,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="slider-welcome__slide slide-welcome slide-finance">
+						<!-- Слайд -->
+						<div class="slider-welcome__slide slide-welcome swiper-lazy" data-background="img/welcome-slider/finance.jpg">
+							<div class="swiper-lazy-preloader"></div>
 							<div class="slide-welcome__gradient">
 								<div class="slide-welcome__content">
 									<a class="slide-welcome__link main-button" href="#">Экономика и финансы</a>
@@ -79,7 +85,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="slider-welcome__slide slide-welcome slide-it">
+						<!-- Слайд -->
+						<div class="slider-welcome__slide slide-welcome swiper-lazy" data-background="img/welcome-slider/it.jpg">
+							<div class="swiper-lazy-preloader"></div>
 							<div class="slide-welcome__gradient">
 								<div class="slide-welcome__content">
 									<a class="slide-welcome__link main-button" href="#">Кибербезопасноть и IT</a>
@@ -87,7 +95,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="slider-welcome__slide slide-welcome slide-control">
+						<!-- Слайд -->
+						<div class="slider-welcome__slide slide-welcome swiper-lazy" data-background="img/welcome-slider/control.jpg">
+							<div class="swiper-lazy-preloader"></div>
 							<div class="slide-welcome__gradient">
 								<div class="slide-welcome__content">
 									<a class="slide-welcome__link main-button" href="#">Оперативное управление</a>
@@ -99,6 +109,7 @@
 					<div class="slider-welcome__controls"></div>
 				</div>
 			</section>
+			<!-- Секция "Ближайшие события" -->
 			<section class="events">
 				<div class="events__container">
 					<div class="events__top-block">
@@ -114,7 +125,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/meeting.webp" type="image/webp"><img src="img/events-slider/meeting.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/meeting.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">12:00</span>
@@ -130,7 +142,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/forum-1.webp" type="image/webp"><img src="img/events-slider/forum-1.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/forum-1.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">11:00</span>
@@ -146,7 +159,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/forum-2.webp" type="image/webp"><img src="img/events-slider/forum-2.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/forum-2.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">12:00</span>
@@ -162,7 +176,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/meeting.webp" type="image/webp"><img src="img/events-slider/meeting.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/meeting.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">12:00</span>
@@ -178,7 +193,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/forum-1.webp" type="image/webp"><img src="img/events-slider/forum-1.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/forum-1.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">11:00</span>
@@ -194,7 +210,8 @@
 							<!-- Слайд -->
 							<article class="slider-events__slide slide-events">
 								<a href="#" class="slide-events__link">
-									<picture><source srcset="img/events-slider/forum-2.webp" type="image/webp"><img src="img/events-slider/forum-2.jpg?_v=1641822794772" alt="News Event Image" class="slide-events__img"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/events-slider/forum-2.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="News Event Image" class="slide-events__img swiper-lazy"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="slide-events__content">
 										<div class="slide-events__time">
 											<span class="slide-events__time-item">12:00</span>
@@ -284,7 +301,8 @@
 						<div class="slider-teachers__swiper">
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-1.webp" type="image/webp"><img src="img/teachers/teacher-1.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-1.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Михаил Хазин</p>
 									<p class="slide-teachers__position">Экономист</p>
@@ -292,7 +310,8 @@
 							</div>
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-2.webp" type="image/webp"><img src="img/teachers/teacher-2.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-2.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Михаил Делягин</p>
 									<p class="slide-teachers__position">Депутат РФ</p>
@@ -300,7 +319,8 @@
 							</div>
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-3.webp" type="image/webp"><img src="img/teachers/teacher-3.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-3.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Андрей Масалович</p>
 									<p class="slide-teachers__position">Бывший сотрудник КГБ СССР</p>
@@ -308,7 +328,8 @@
 							</div>
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-1.webp" type="image/webp"><img src="img/teachers/teacher-1.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-1.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Михаил Хазин</p>
 									<p class="slide-teachers__position">Экономист</p>
@@ -316,7 +337,8 @@
 							</div>
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-2.webp" type="image/webp"><img src="img/teachers/teacher-2.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-2.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Михаил Делягин</p>
 									<p class="slide-teachers__position">Депутат РФ</p>
@@ -324,7 +346,8 @@
 							</div>
 							<!-- Слайд -->
 							<div class="slider-teachers__slide slide-teachers">
-								<picture><source srcset="img/teachers/teacher-3.webp" type="image/webp"><img src="img/teachers/teacher-3.jpg?_v=1641822794772" alt="Teacher Portrait" class="slide-teachers__img"></picture>
+								<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/teachers/teacher-3.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Teacher Portrait" class="slide-teachers__img swiper-lazy"></picture>
+								<div class="swiper-lazy-preloader"></div>
 								<div class="slide-teachers__content">
 									<p class="slide-teachers__name">Андрей Масалович</p>
 									<p class="slide-teachers__position">Бывший сотрудник КГБ СССР</p>
@@ -358,7 +381,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 1</h5>
 										</div>
@@ -367,7 +391,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 2</h5>
 										</div>
@@ -376,7 +401,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 3</h5>
 										</div>
@@ -385,7 +411,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 4</h5>
 										</div>
@@ -394,7 +421,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 5</h5>
 										</div>
@@ -403,7 +431,8 @@
 								<!-- Слайд -->
 								<article class="thumbs-review__slide slide-thumbs">
 									<a class="slide-thumbs__link">
-										<picture><source srcset="img/reviews/review-slider.webp" type="image/webp"><img src="img/reviews/review-slider.jpg?_v=1641822794772" alt="Review Photo" class="slide-thumbs__img"></picture>
+										<picture><source srcset="img/plug.webp" type="image/webp"><img data-src="img/reviews/review-slider.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Review Photo" class="slide-thumbs__img swiper-lazy"></picture>
+										<div class="swiper-lazy-preloader"></div>
 										<div class="slide-thumbs__content">
 											<h5 class="slide-thumbs__title">Александр Воронков 6</h5>
 										</div>
@@ -419,7 +448,8 @@
 							<div class="main-slider-reviews__swiper">
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 1</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -429,7 +459,8 @@
 								</article>
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 2</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -439,7 +470,8 @@
 								</article>
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 3</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -449,7 +481,8 @@
 								</article>
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 4</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -459,7 +492,8 @@
 								</article>
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 5</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -469,7 +503,8 @@
 								</article>
 								<!-- Слайд -->
 								<article class="main-slider-reviews__slide main-slide-reviews">
-									<picture><source srcset="img/reviews/review-person.webp" type="image/webp"><img class="main-slide-reviews__image" src="img/reviews/review-person.jpg?_v=1641822794772" alt="Person"></picture>
+									<picture><source srcset="img/plug.webp" type="image/webp"><img class="main-slide-reviews__image swiper-lazy" data-src="img/reviews/review-person.jpg?_v=1641916996006" src="img/plug.png?_v=1641916996006" alt="Person"></picture>
+									<div class="swiper-lazy-preloader"></div>
 									<div class="main-slide-reviews__body">
 										<h5 class="main-slide-reviews__title">Александр Воронков 6</h5>
 										<p class="main-slide-reviews__position">Частный предприниматель</p>
@@ -546,7 +581,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/events-slider/meeting.webp" type="image/webp"><img src="img/events-slider/meeting.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/events-slider/meeting.webp" type="image/webp"><img src="img/events-slider/meeting.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">Встреча с читателями</h6>
 												<p class="info-block__text">4 ноября 2021, Воскресенье</p>
@@ -557,7 +592,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/events-slider/forum-1.webp" type="image/webp"><img src="img/events-slider/forum-1.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/events-slider/forum-1.webp" type="image/webp"><img src="img/events-slider/forum-1.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">10-ый форум директоров:
 													“Стратегия. Взгляд в будущее российских бизнесов”</h6>
@@ -569,7 +604,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/events-slider/forum-2.webp" type="image/webp"><img src="img/events-slider/forum-2.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/events-slider/forum-2.webp" type="image/webp"><img src="img/events-slider/forum-2.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">“Мир входит в катастрофу. Что делать и чего ждать каждому из нас”</h6>
 												<p class="info-block__text">24 ноября 2021, Воскресенье</p>
@@ -585,7 +620,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/welcome-slider/investments.webp" type="image/webp"><img src="img/welcome-slider/investments.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/welcome-slider/investments.webp" type="image/webp"><img src="img/welcome-slider/investments.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">Инвестиции и трейдинг</h6>
 												<p class="info-block__text">Грамотное распределение денежных средств и увеличение оборотов компании</p>
@@ -596,7 +631,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/welcome-slider/finance.webp" type="image/webp"><img src="img/welcome-slider/finance.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/welcome-slider/finance.webp" type="image/webp"><img src="img/welcome-slider/finance.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">Экономика и финансы</h6>
 												<p class="info-block__text">Новые экономические модели для максимального оборота и роста компаний </p>
@@ -607,7 +642,7 @@
 								<li class="info-block__item">
 									<article class="info-block__article">
 										<a href="#" class="info-block__link">
-											<picture><source srcset="img/welcome-slider/it.webp" type="image/webp"><img src="img/welcome-slider/it.jpg?_v=1641822794772" alt="Image" class="info-block__img"></picture>
+											<picture><source srcset="img/welcome-slider/it.webp" type="image/webp"><img src="img/welcome-slider/it.jpg?_v=1641916996006" alt="Image" class="info-block__img"></picture>
 											<div class="info-block__body">
 												<h6 class="info-block__title">Кибербезопасность и IT</h6>
 												<p class="info-block__text">Корпоративная безопасность и эффективная работа с базами данных</p>
@@ -699,7 +734,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220110145314"></script>
+	<script src="js/app.min.js?_v=20220111170316"></script>
 </body>
 
 </html>
