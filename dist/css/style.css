@@ -296,6 +296,18 @@ body {
 .slider-welcome {
   position: relative;
 }
+.slider-welcome__slide-investments {
+  background-image: url(../img/welcome-slider/investments.jpg);
+}
+.slider-welcome__slide-finance {
+  background-image: url(../img/welcome-slider/finance.jpg);
+}
+.slider-welcome__slide-it {
+  background-image: url(../img/welcome-slider/it.jpg);
+}
+.slider-welcome__slide-control {
+  background-image: url(../img/welcome-slider/control.jpg);
+}
 .slider-welcome__controls {
   display: none;
   position: absolute;
@@ -367,22 +379,6 @@ body {
   line-height: 1.375rem;
   color: #000;
   color: #fff;
-}
-
-.slide-investments {
-  background-image: url(../img/welcome-slider/investments.jpg);
-}
-
-.slide-finance {
-  background-image: url(../img/welcome-slider/finance.jpg);
-}
-
-.slide-it {
-  background-image: url(../img/welcome-slider/it.jpg);
-}
-
-.slide-control {
-  background-image: url(../img/welcome-slider/control.jpg);
 }
 
 .title-3 {
