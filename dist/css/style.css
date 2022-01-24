@@ -700,84 +700,84 @@ body {
     grid-template-rows: repeat(5, 1fr);
   }
 }
-.education__card-courses, .webp .education__card-courses {
+.education__card-courses {
   grid-row-start: 1;
   grid-row-end: 3;
   background: url(../img/education/courses.jpg) center center no-repeat;
   background-size: cover;
 }
 @media (min-width: 47.99875em) {
-  .education__card-courses, .webp .education__card-courses {
+  .education__card-courses {
     background: url(../img/education/courses.jpg) center center no-repeat;
     background-size: 32.5rem;
     transition: background 0.8s ease-in-out;
   }
-  .education__card-courses:hover, .webp .education__card-courses:hover {
+  .education__card-courses:hover {
     background: url(../img/education/courses.jpg) left center no-repeat;
     background-size: 43.75rem;
   }
 }
-.education__card-courses .card-education__title, .webp .education__card-courses .card-education__title {
+.education__card-courses .card-education__title {
   margin-bottom: 1.5rem;
 }
-.education__card-webinars, .webp .education__card-webinars {
+.education__card-webinars {
   grid-row-start: 3;
   grid-row-end: 4;
   background: url(../img/education/webinars.jpg) center center no-repeat;
   background-size: cover;
 }
 @media (min-width: 47.99875em) {
-  .education__card-webinars, .webp .education__card-webinars {
+  .education__card-webinars {
     background: url(../img/education/webinars.jpg) center center no-repeat;
     background-size: 32.5rem;
     transition: background 0.8s ease-in-out;
   }
-  .education__card-webinars:hover, .webp .education__card-webinars:hover {
+  .education__card-webinars:hover {
     background: url(../img/education/webinars.jpg) left center no-repeat;
     background-size: 43.75rem;
   }
 }
-.education__card-trainings, .webp .education__card-trainings {
+.education__card-trainings {
   background: url(../img/education/trainings.jpg) center center no-repeat;
   background-size: cover;
 }
 @media (min-width: 47.99875em) {
-  .education__card-trainings, .webp .education__card-trainings {
+  .education__card-trainings {
     background: url(../img/education/trainings.jpg) center center no-repeat;
     background-size: 32.5rem;
     transition: background 0.8s ease-in-out;
   }
-  .education__card-trainings:hover, .webp .education__card-trainings:hover {
+  .education__card-trainings:hover {
     background: url(../img/education/trainings.jpg) left center no-repeat;
     background-size: 43.75rem;
   }
 }
-.education__card-seminars, .webp .education__card-seminars {
+.education__card-seminars {
   background: url(../img/education/seminars.jpg) center center no-repeat;
   background-size: cover;
 }
 @media (min-width: 47.99875em) {
-  .education__card-seminars, .webp .education__card-seminars {
+  .education__card-seminars {
     background: url(../img/education/seminars.jpg) center center no-repeat;
     background-size: 32.5rem;
     transition: background 0.8s ease-in-out;
   }
-  .education__card-seminars:hover, .webp .education__card-seminars:hover {
+  .education__card-seminars:hover {
     background: url(../img/education/seminars.jpg) left center no-repeat;
     background-size: 43.75rem;
   }
 }
-.education__card-consultations, .webp .education__card-consultations {
+.education__card-consultations {
   background: url(../img/education/consultations.jpg) center center no-repeat;
   background-size: cover;
 }
 @media (min-width: 47.99875em) {
-  .education__card-consultations, .webp .education__card-consultations {
+  .education__card-consultations {
     background: url(../img/education/consultations.jpg) center center no-repeat;
     background-size: 32.5rem;
     transition: background 0.8s ease-in-out;
   }
-  .education__card-consultations:hover, .webp .education__card-consultations:hover {
+  .education__card-consultations:hover {
     background: url(../img/education/consultations.jpg) left center no-repeat;
     background-size: 43.75rem;
   }
@@ -791,6 +791,31 @@ body {
   .education__link {
     padding: 1.125rem 5rem;
   }
+}
+
+.webp .education__card-courses:hover {
+  background: url(../img/education/courses.jpg) left center no-repeat;
+  background-size: 43.75rem;
+}
+
+.webp .education__card-webinars:hover {
+  background: url(../img/education/webinars.jpg) left center no-repeat;
+  background-size: 43.75rem;
+}
+
+.webp .education__card-trainings:hover {
+  background: url(../img/education/trainings.jpg) left center no-repeat;
+  background-size: 43.75rem;
+}
+
+.webp .education__card-seminars:hover {
+  background: url(../img/education/seminars.jpg) left center no-repeat;
+  background-size: 43.75rem;
+}
+
+.webp .education__card-consultations:hover {
+  background: url(../img/education/consultations.jpg) left center no-repeat;
+  background-size: 43.75rem;
 }
 
 .card-education__gradient {
