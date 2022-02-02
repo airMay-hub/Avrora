@@ -1,0 +1,91 @@
+//====================================================================================================
+
+.footer {
+  @include adaptiveValue('padding-top', 100, 60);
+  @include text(rem(30), rem(16), 300);
+  background-color: $mainColor;
+  color: $mainLightColor;
+
+  &__container {
+  }
+
+  &__row {
+  }
+
+  &__row-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @media (max-width: rem(1160)) {
+      justify-content: space-around;
+    }
+
+    @media (max-width: rem(600)) {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &__column-1 {
+    margin: 0 rem(60) 0 0;
+
+    @media (max-width: rem(600)) {
+      margin: 0 0 rem(60) 0;
+    }
+  }
+
+  &__column-2 {
+  }
+
+  &__row-2 {
+    display: flex;
+    padding: rem(60) 0 rem(30) 0;
+    align-items: center;
+    justify-content: center;
+    @include text(rem(16), rem(14));
+    color: $mainLightColor;
+  }
+}
+
+//====================================================================================================
+
+.column-footer-1 {
+
+  &__paragraph:not(:last-child) {
+    margin: 0 0 rem(10) 0;
+  }
+
+  &__paragraph:first-child {
+    margin: 0 0 rem(50) 0;
+    font-weight: bold;
+  }
+}
+
+//====================================================================================================
+
+.column-footer-2 {
+
+  &__link {
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__link:not(:last-child) {
+    margin: 0 0 rem(10) 0;
+  }
+
+  &__link:nth-child(3) {
+    text-decoration: underline;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}
+
+//====================================================================================================

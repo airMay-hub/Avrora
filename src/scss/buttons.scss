@@ -1,0 +1,27 @@
+// Основные стили кнопки без внутренних отступов
+// Отступы указаны в зависимости от положения кнопки на странице
+.main-button {
+  display: inline-block;
+  background-color: $mainRed;
+  @include text(rem(18), rem(15), 700, 'Montserrat', $mainLightColor);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $mainLightColor;
+    color: $mainRed;
+  }
+}
+
+.login-link {
+  border: 1px solid $mainRed;
+  color: $mainRed;
+
+  @media (min-width: $mobile) {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $mainRed;
+      color: $mainLightColor;
+    }
+  }
+}
